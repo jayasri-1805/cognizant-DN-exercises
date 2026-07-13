@@ -1,1 +1,61 @@
+import java.util.HashMap;
+class Product {
+    int productId;
+    String productName;
+    int quantity;
+    double price;
+    Product(int productId, String productName, int quantity, double price) {
+        this.productId = productId;
+        this.productName = productName;
+        this.quantity = quantity;
+        this.price = price;
+    }
+    void display() {
+        System.out.println(productId + "  " + productName + "  " + quantity + "  " + price);
+    }
+}
+public class Main {
+    static HashMap<Integer, Product> inventory = new HashMap<>();
+    static void addProduct(Product p) {
+        inventory.put(p.productId, p);
+    }
+    static void updateProduct(int id, int quantity, double price) {
+        Product p = inventory.get(id);
+        if (p != null) {
+            p.quantity = quantity;
+            p.price = price;
+        }
+    }
+    static void deleteProduct(int id) {
+        inventory.remove(id);
+    }
+    static void displayInventory() {
+        System.out.println("ID\tName\t\tQuantity\tPrice");
+        for (Product p : inventory.values()) {
+            System.out.println(p.productId + "\t" + p.productName + "\t\t" + p.quantity + "\t\t" + p.price);
+        }
+    }
+    public static void main(String[] args) {
+        addProduct(new Product(101, "Laptop", 15, 65000));
+        addProduct(new Product(102, "Mouse", 50, 500));
+        addProduct(new Product(103, "Keyboard", 30, 1200));
+        System.out.println("Initial Inventory");
+        displayInventory();
+        updateProduct(102, 60, 550);
+        deleteProduct(103);
+        System.out.println("\nUpdated Inventory");
+        displayInventory();
+    }
+}
 
+OUTPUT:
+Initial Inventory
+ID	Name		Quantity	Price
+101	Laptop		15		65000.0
+102	Mouse		50		500.0
+103	Keyboard		30		1200.0
+
+Updated Inventory
+ID	Name		Quantity	Price
+101	Laptop		15		65000.0
+102	Mouse		60		550.0
