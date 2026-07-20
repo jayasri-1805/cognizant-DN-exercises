@@ -1,0 +1,2 @@
+-- Uses the same schema from Exercise 1.
+-- Make sure the tables Customers, Accounts, Loans and Employees already exist.
