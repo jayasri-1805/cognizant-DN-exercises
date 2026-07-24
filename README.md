@@ -54,8 +54,6 @@ Each module contains practical exercises, real-world scenarios, and coding assig
 - Java
 - SQL
 - JavaScript
-- HTML5
-- CSS3
 
 ### Backend
 
