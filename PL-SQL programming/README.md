@@ -56,83 +56,6 @@ Develop reusable database procedures to simplify business logic execution.
 
 ---
 
-## Additional Important Hands-on
-
-### Exercise 2 – Exception Handling
-
-**Concepts Covered**
-
-- Predefined Exceptions
-- User-Defined Exceptions
-- Exception Propagation
-- Exception Handling Block
-
-**Objective**
-
-Handle runtime errors gracefully and improve application reliability.
-
----
-
-### Exercise 4 – Functions
-
-**Concepts Covered**
-
-- User-Defined Functions
-- Return Values
-- Parameter Passing
-- SQL Integration
-
-**Objective**
-
-Create reusable functions that return computed values and can be called from SQL queries.
-
----
-
-### Exercise 5 – Triggers
-
-**Concepts Covered**
-
-- BEFORE Triggers
-- AFTER Triggers
-- INSERT, UPDATE, DELETE Triggers
-- Database Automation
-
-**Objective**
-
-Automate database operations by executing PL/SQL code in response to table events.
-
----
-
-### Exercise 6 – Cursors
-
-**Concepts Covered**
-
-- Implicit Cursors
-- Explicit Cursors
-- Cursor FOR Loops
-- Record Processing
-
-**Objective**
-
-Efficiently retrieve and process multiple rows returned by SQL queries.
-
----
-
-### Exercise 7 – Packages
-
-**Concepts Covered**
-
-- Package Specification
-- Package Body
-- Modular Programming
-- Encapsulation
-
-**Objective**
-
-Organize related procedures, functions, variables, and cursors into reusable packages.
-
----
-
 ## 💻 Technologies Used
 
 - Oracle Database
@@ -146,13 +69,6 @@ Organize related procedures, functions, variables, and cursors into reusable pac
 
 ```
 PL-SQL Programming/
-│
-├── Additional important hands-on/
-│   ├── Exercise 2 - Exception Handling
-│   ├── Exercise 4 - Functions
-│   ├── Exercise 5 - Triggers
-│   ├── Exercise 6 - Cursors
-│   └── Exercise 7 - Packages
 │
 └── Mandatory hands-on/
     ├── Exercise 1 - Control Structures
