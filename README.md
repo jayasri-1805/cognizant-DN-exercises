@@ -39,11 +39,11 @@ Each module contains practical exercises, real-world scenarios, and coding assig
 | 📂 Design Principles & Patterns | Creational, Structural & Behavioral Design Patterns |
 | 📂 PL/SQL Programming | Stored Procedures, Functions, Triggers, Cursors |
 | 📂 Spring Core & Maven | Dependency Injection, Bean Management, Maven |
-| 📂 Spring Data JPA & Hibernate | ORM, Entity Mapping, Repository Pattern |
-| 📂 Spring REST | RESTful Web Services using Spring Boot |
+| 📂 Spring Data JPA with Spring Boot & Hibernate | ORM, Entity Mapping, Repository Pattern |
+| 📂 Spring REST using Spring Boot| RESTful Web Services using Spring Boot |
 | 📂 Microservices | Eureka, API Gateway, Feign Client, Config Server |
 | 📂 React | Components, Hooks, Routing, State Management |
-| 📂 Full Stack Applications | Integration of Frontend and Backend |
+| 📂 SLF4J logging framework | Integration of Frontend and Backend |
 
 ---
 
@@ -97,13 +97,14 @@ Cognizant-DN-Exercises
 │
 ├── Data Structures and Algorithms
 ├── Design Principles & Patterns
-├── PL SQL Programming
-├── Spring Core & Maven
-├── Spring Data JPA
-├── Spring REST
+├── JUnit, Mockito and SL4J
 ├── Microservices
+├── PL-SQL Programming
 ├── React
-└── Additional Modules
+├── SLF4J logging framework
+├── Spring Core and Maven
+├── Spring Data JPA with Spring Boot & Hibernate
+└── Spring REST using Spring Boot
 ```
 
 ---
