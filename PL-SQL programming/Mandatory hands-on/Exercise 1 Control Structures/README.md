@@ -14,7 +14,6 @@ PLSQL_Exercise1_GitHub/
 │   ├── 04_scenario2.sql
 │   └── 05_scenario3.sql
 │── README.md
-│── LICENSE
 ```
 
 ## Scenarios
