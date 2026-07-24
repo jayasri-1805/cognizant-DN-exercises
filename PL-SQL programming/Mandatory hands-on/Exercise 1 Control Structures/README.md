@@ -36,5 +36,3 @@ PLSQL_Exercise1_GitHub/
 
 Enable **DBMS Output** before executing the PL/SQL blocks.
 
-## Author
-Jaya Sri
