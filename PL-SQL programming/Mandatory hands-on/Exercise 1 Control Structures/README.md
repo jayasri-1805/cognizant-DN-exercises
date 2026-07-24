@@ -6,7 +6,7 @@ This repository contains solutions for three PL/SQL control structure scenarios.
 ## Project Structure
 
 ```
-PLSQL_Exercise1_GitHub/
+Mandatory hans-on/Exercise 1 Control Structures
 │── sql/
 │   ├── 01_schema.sql
 │   ├── 02_sample_data.sql
