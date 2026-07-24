@@ -17,8 +17,6 @@ This repository contains implementations of various **Software Design Principles
 ### Mandatory Hands-on
 
 ### Exercise 1 – Singleton Pattern
-**Pattern:** Creational
-
 **Scenario:**
 Implement a Logger class that ensures only one instance exists throughout the application.
 
@@ -31,8 +29,6 @@ Implement a Logger class that ensures only one instance exists throughout the ap
 ---
 
 ### Exercise 2 – Factory Method Pattern
-**Pattern:** Creational
-
 **Scenario:**
 Develop a document management system capable of creating different document types such as Word, PDF, and Excel.
 
@@ -47,8 +43,6 @@ Develop a document management system capable of creating different document type
 ## Additional Important Hands-on
 
 ### Exercise 3 – Builder Pattern
-**Pattern:** Creational
-
 **Scenario:**
 Build configurable Computer objects with optional components using the Builder Pattern.
 
@@ -60,8 +54,6 @@ Build configurable Computer objects with optional components using the Builder P
 ---
 
 ### Exercise 4 – Adapter Pattern
-**Pattern:** Structural
-
 **Scenario:**
 Integrate multiple third-party payment gateways with different interfaces.
 
@@ -73,8 +65,6 @@ Integrate multiple third-party payment gateways with different interfaces.
 ---
 
 ### Exercise 5 – Decorator Pattern
-**Pattern:** Structural
-
 **Scenario:**
 Extend notification functionality dynamically by adding Email, SMS, and Slack notifications.
 
@@ -86,8 +76,6 @@ Extend notification functionality dynamically by adding Email, SMS, and Slack no
 ---
 
 ### Exercise 6 – Proxy Pattern
-**Pattern:** Structural
-
 **Scenario:**
 Implement lazy loading and caching for remote image loading.
 
@@ -100,8 +88,6 @@ Implement lazy loading and caching for remote image loading.
 ---
 
 ### Exercise 7 – Observer Pattern
-**Pattern:** Behavioral
-
 **Scenario:**
 Notify multiple clients whenever stock prices change.
 
@@ -113,8 +99,6 @@ Notify multiple clients whenever stock prices change.
 ---
 
 ### Exercise 8 – Strategy Pattern
-**Pattern:** Behavioral
-
 **Scenario:**
 Select different payment methods at runtime.
 
@@ -126,8 +110,6 @@ Select different payment methods at runtime.
 ---
 
 ### Exercise 9 – Command Pattern
-**Pattern:** Behavioral
-
 **Scenario:**
 Implement a home automation system using command objects.
 
@@ -140,7 +122,6 @@ Implement a home automation system using command objects.
 
 ### Exercise 10 – MVC Pattern
 **Architectural Pattern**
-
 **Scenario:**
 Develop a Student Management application using the Model-View-Controller architecture.
 
@@ -155,7 +136,6 @@ Develop a Student Management application using the Model-View-Controller archite
 
 ### Exercise 11 – Dependency Injection
 **Design Principle**
-
 **Scenario:**
 Implement constructor-based dependency injection for a customer management system.
 
@@ -167,28 +147,6 @@ Implement constructor-based dependency injection for a customer management syste
 
 ---
 
-## Design Patterns Covered
-
-### Creational Patterns
-- Singleton
-- Factory Method
-- Builder
-
-### Structural Patterns
-- Adapter
-- Decorator
-- Proxy
-
-### Behavioral Patterns
-- Observer
-- Strategy
-- Command
-
-### Architectural & Design Principles
-- MVC Pattern
-- Dependency Injection
-
----
 
 ## Technologies Used
 
