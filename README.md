@@ -1,4 +1,4 @@
-# Cognizant Digital Nurture 4.0 – Java Full Stack Engineer (FSE)
+# Cognizant Digital Nurture 5.0 – Java Full Stack Engineer (FSE)
 
 ![Java](https://img.shields.io/badge/Java-17-orange?style=for-the-badge&logo=java)
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-Framework-brightgreen?style=for-the-badge&logo=springboot)
@@ -9,7 +9,7 @@
 
 ## 📖 About
 
-This repository contains my solutions and hands-on implementations for the **Cognizant Digital Nurture (DN) 4.0 - Java Full Stack Engineer Program**.
+This repository contains my solutions and hands-on implementations for the **Cognizant Digital Nurture (DN) 5.0 - Java Full Stack Engineer Program**.
 
 The repository covers the complete Java Full Stack curriculum including Data Structures & Algorithms, Design Patterns, PL/SQL, Spring Framework, Spring Boot, REST APIs, Microservices, React, and Full Stack Development.
 
