@@ -1,28 +1,94 @@
-# Creating Microservices for Account and Loan
+# ☁️ Creating Microservices for Account and Loan
 
-## Overview
+![Java](https://img.shields.io/badge/Java-8-orange?style=for-the-badge&logo=java)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-Microservices-brightgreen?style=for-the-badge&logo=springboot)
+![REST API](https://img.shields.io/badge/REST-API-blue?style=for-the-badge)
+![Maven](https://img.shields.io/badge/Maven-Build_Tool-red?style=for-the-badge&logo=apachemaven)
+![GitHub](https://img.shields.io/badge/GitHub-Repository-black?style=for-the-badge&logo=github)
 
-This project demonstrates the implementation of two independent Spring Boot microservices: **Account Service** and **Loan Service**. Each service exposes REST APIs and can run independently, following the microservices architecture.
+## 📖 About
 
-The project is developed as part of the Cognizant Digital Nurture Microservices hands-on exercises.
+This repository demonstrates the implementation of two independent **Spring Boot Microservices**: **Account Service** and **Loan Service**. Each service exposes REST APIs and operates independently, following the principles of **Microservices Architecture**.
+
+The project is developed as part of the **Cognizant Digital Nurture (DN) Program** to understand service decomposition, modular application design, and RESTful web service development using Spring Boot.
 
 ---
 
-## Technologies Used
+## 🎯 Repository Objectives
+
+- Understand the fundamentals of Microservices Architecture.
+- Develop independent Spring Boot applications.
+- Create RESTful APIs using Spring Boot.
+- Learn service decomposition and modular design.
+- Run and test multiple services independently.
+- Build scalable and maintainable enterprise applications.
+
+---
+
+# 📚 Project Modules
+
+## 📌 Account Microservice
+
+### Description
+
+The **Account Service** provides REST endpoints for retrieving customer account information.
+
+### Features
+
+- Spring Boot REST API
+- Retrieves customer account details
+- Independent microservice
+- Runs on a dedicated server
+- Lightweight and modular architecture
+
+---
+
+## 📌 Loan Microservice
+
+### Description
+
+The **Loan Service** provides REST endpoints for retrieving customer loan information.
+
+### Features
+
+- Spring Boot REST API
+- Retrieves customer loan details
+- Independent microservice
+- Runs separately from the Account Service
+- Modular service implementation
+
+---
+
+# 💻 Technologies Used
+
+### Programming Language
 
 - Java 8
+
+### Backend
+
 - Spring Boot
 - Spring Web
-- Maven
 - REST API
-- Eclipse / IntelliJ IDEA / VS Code
+
+### Build Tool
+
+- Maven
+
+### Development Tools
+
+- Eclipse IDE
+- IntelliJ IDEA
+- Visual Studio Code
+- Git
+- GitHub
 
 ---
 
-## Project Structure
+# 📂 Repository Structure
 
-```
-Creating Microservices for account and loan/
+```text
+Creating Microservices for Account and Loan/
 │
 ├── account/
 │   ├── src/
@@ -39,50 +105,26 @@ Creating Microservices for account and loan/
 
 ---
 
-## Modules
+## ⚙️ Prerequisites
 
-### Account Microservice
-
-The Account Service provides REST endpoints related to customer account information.
-
-**Features**
-- Spring Boot REST API
-- Returns account details
-- Independent microservice
-- Runs on its own server
-
----
-
-### Loan Microservice
-
-The Loan Service provides REST endpoints related to customer loan information.
-
-**Features**
-- Spring Boot REST API
-- Returns loan details
-- Independent microservice
-- Runs separately from the Account Service
-
----
-
-## Prerequisites
-
-Before running the project, install:
+Before running the project, ensure the following are installed:
 
 - Java 8 or above
-- Maven
-- Eclipse / IntelliJ IDEA / VS Code
+- Apache Maven
 - Git
+- Eclipse / IntelliJ IDEA / VS Code
 
 ---
 
-## How to Run
+## ▶️ How to Run
 
 ### Clone the Repository
 
 ```bash
 git clone <repository-url>
 ```
+
+---
 
 ### Run Account Microservice
 
@@ -91,9 +133,7 @@ cd account
 mvn spring-boot:run
 ```
 
-or
-
-Run the main Spring Boot application class from your IDE.
+Or run the main Spring Boot application class from your IDE.
 
 ---
 
@@ -104,43 +144,44 @@ cd loan
 mvn spring-boot:run
 ```
 
-or
-
-Run the main Spring Boot application class from your IDE.
+Or run the main Spring Boot application class from your IDE.
 
 ---
 
-## REST Endpoints
+## 🌐 REST Endpoints
 
 ### Account Service
 
 | Method | Endpoint | Description |
 |---------|----------|-------------|
-| GET | `/accounts/{number}` *(or configured endpoint)* | Fetch account details |
+| GET | `/accounts/{number}` | Fetch customer account details |
+
+---
 
 ### Loan Service
 
 | Method | Endpoint | Description |
 |---------|----------|-------------|
-| GET | `/loans/{number}` *(or configured endpoint)* | Fetch loan details |
+| GET | `/loans/{number}` | Fetch customer loan details |
 
-> *Note:* Replace the endpoint paths with the ones configured in your project if they differ.
+> **Note:** Replace the endpoint paths with the ones configured in your project if they differ.
 
 ---
 
-## Learning Outcomes
+## 🎓 Learning Outcomes
 
-After completing this exercise, you will be able to:
+After completing this project, you will be able to:
 
-- Build independent Spring Boot microservices.
-- Develop RESTful web services.
-- Structure applications using the microservices architecture.
+- Build independent Spring Boot Microservices.
+- Develop RESTful Web Services.
+- Understand Microservices Architecture.
+- Design modular and scalable applications.
 - Run multiple services independently.
-- Understand service decomposition and modular application design.
+- Implement service-based application development.
 
 ---
 
-## Output
+## 📄 Output
 
 The project output is included as:
 
@@ -148,16 +189,29 @@ The project output is included as:
 
 ---
 
-## Author
+## 👨‍💻 Author
 
 **Jaya Sri**
 
-B.Tech – Computer Science and Engineering (AI & DS)
+B.Tech – Artificial Intelligence & Data Science
 
 Vishnu Institute of Technology
 
 ---
 
-## License
+## ⭐ Repository Purpose
 
-This project is created for educational purposes as part of the Cognizant Digital Nurture Program.
+This repository serves as:
+
+- Microservices Architecture Practice
+- Spring Boot REST API Reference
+- Academic Laboratory Record
+- Placement & Interview Preparation
+- Enterprise Java Development Practice
+- GitHub Portfolio Showcase
+
+---
+
+## 📄 License
+
+This repository is created for educational and academic purposes.
