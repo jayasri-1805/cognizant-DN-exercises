@@ -1,0 +1,1 @@
+export default function CalculateScore({name,school,total,scored}){const percentage=((scored/total)*100).toFixed(2);return(<div style={{border:'1px solid #ccc',padding:'10px',margin:'10px 0'}}><h2>{name}</h2><p><b>School:</b> {school}</p><p><b>Marks:</b> {scored}/{total}</p><p><b>Percentage:</b> {percentage}%</p></div>);}
