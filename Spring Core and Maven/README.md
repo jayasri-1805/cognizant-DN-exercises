@@ -1,4 +1,4 @@
-# 🌱 Spring Core and Maven Lab
+# 🌱 Spring Core and Maven
 
 ![Java](https://img.shields.io/badge/Java-17-orange?style=for-the-badge&logo=java)
 ![Spring](https://img.shields.io/badge/Spring_Framework-Framework-brightgreen?style=for-the-badge&logo=spring)
