@@ -1,20 +1,194 @@
-# Spring Core and Maven
+# 🌱 Spring Core and Maven Lab
 
-This repository contains hands-on exercises for learning **Spring Core**, **Spring Boot**, **Dependency Injection**, **Aspect-Oriented Programming (AOP)**, and **Maven**. The exercises are organized into mandatory and additional practice modules.
+![Java](https://img.shields.io/badge/Java-17-orange?style=for-the-badge&logo=java)
+![Spring](https://img.shields.io/badge/Spring_Framework-Framework-brightgreen?style=for-the-badge&logo=spring)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-Framework-6DB33F?style=for-the-badge&logo=springboot)
+![Maven](https://img.shields.io/badge/Maven-Build_Tool-red?style=for-the-badge&logo=apachemaven)
+![GitHub](https://img.shields.io/badge/GitHub-Repository-black?style=for-the-badge&logo=github)
+
+## 📖 About
+
+This repository contains hands-on exercises for learning **Spring Core**, **Spring Boot**, **Dependency Injection (DI)**, **Inversion of Control (IoC)**, **Aspect-Oriented Programming (AOP)**, and **Maven**.
+
+The exercises are designed to provide practical experience in developing enterprise Java applications using the Spring Framework. They cover XML and annotation-based configuration, bean management, dependency injection, Spring Boot fundamentals, and centralized logging using Spring AOP.
 
 ---
 
-## 📂 Repository Structure
+## 🎯 Repository Objectives
 
-```
-Spring Core and Maven
+- Understand the fundamentals of the Spring Framework.
+- Learn Inversion of Control (IoC) and Dependency Injection (DI).
+- Configure Spring applications using XML and annotations.
+- Build Java projects using Maven.
+- Develop Spring Boot applications.
+- Implement Aspect-Oriented Programming (AOP).
+- Apply logging using Spring AOP.
+- Gain hands-on experience with enterprise Java development.
+
+---
+
+# 📚 Hands-on Exercises
+
+## 📌 Mandatory Hands-on
+
+### Exercise 1 – Configuring a Basic Spring Application
+
+#### Concepts Covered
+
+- Spring Core
+- XML Bean Configuration
+- ApplicationContext
+- Bean Management
+
+#### Objective
+
+Create a basic Spring application and configure beans using XML configuration.
+
+---
+
+### Exercise 2 – Creating and Configuring a Maven Project
+
+#### Concepts Covered
+
+- Maven Project Structure
+- `pom.xml`
+- Dependency Management
+- Build Lifecycle
+
+#### Objective
+
+Create a Maven project, configure dependencies, and build the application using Maven.
+
+---
+
+### Exercise 3 – Implementing Dependency Injection
+
+#### Concepts Covered
+
+- Inversion of Control (IoC)
+- Constructor Injection
+- Setter Injection
+- Bean Dependencies
+
+#### Objective
+
+Implement Dependency Injection using Spring to achieve loose coupling between components.
+
+---
+
+## 📌 Additional Important Hands-on
+
+### Exercise 4 – Configuring Beans with Annotations
+
+#### Concepts Covered
+
+- `@Component`
+- `@Service`
+- `@Repository`
+- `@Controller`
+- Component Scanning
+
+---
+
+### Exercise 5 – Configuring the Spring IoC Container
+
+#### Concepts Covered
+
+- XML Configuration
+- Annotation-Based Configuration
+- Bean Scope
+- Bean Lifecycle
+
+---
+
+### Exercise 6 – Creating a Spring Boot Application
+
+#### Concepts Covered
+
+- Spring Boot Starters
+- Auto Configuration
+- Embedded Server
+- Spring Boot Application Structure
+
+---
+
+### Exercise 7 – Implementing Basic AOP with Spring
+
+#### Concepts Covered
+
+- Aspect-Oriented Programming
+- Before Advice
+- After Advice
+- AspectJ Configuration
+
+---
+
+### Exercise 8 – Implementing Constructor and Setter Injection
+
+#### Concepts Covered
+
+- Constructor-Based Injection
+- Setter-Based Injection
+- Dependency Injection Best Practices
+
+---
+
+### Exercise 9 – Implementing Logging with Spring AOP
+
+#### Concepts Covered
+
+- Logging Aspect
+- Method Interception
+- Cross-Cutting Concerns
+- Spring AOP
+
+---
+
+# 💻 Technologies Used
+
+### Programming Language
+
+- Java 17
+
+### Frameworks
+
+- Spring Core
+- Spring Boot
+- Spring AOP
+
+### Build Tool
+
+- Maven
+
+### Core Concepts
+
+- Dependency Injection (DI)
+- Inversion of Control (IoC)
+- Aspect-Oriented Programming (AOP)
+- Bean Lifecycle
+- Bean Scopes
+
+### Development Tools
+
+- Eclipse IDE
+- IntelliJ IDEA
+- Visual Studio Code
+- Git
+- GitHub
+
+---
+
+# 📂 Repository Structure
+
+```text
+Spring Core and Maven/
 │
-├── Mandatory hands-on
+├── Mandatory hands-on/
 │   ├── Configuring a Basic Spring Application
 │   ├── Creating and Configuring a Maven Project
 │   └── Implementing Dependency Injection
 │
-└── Additional important hands-on
+└── Additional important hands-on/
     ├── Configuring Beans with Annotations
     ├── Configuring the Spring IoC Container
     ├── Creating a Spring Boot Application
@@ -25,151 +199,61 @@ Spring Core and Maven
 
 ---
 
-## 📚 Hands-on Exercises
+## ⚙️ Prerequisites
 
-### Mandatory Hands-on
+Before running the project, ensure the following are installed:
 
-### 1. Configuring a Basic Spring Application
-- Create a basic Spring project.
-- Configure beans using XML.
-- Understand the Spring container.
-- Retrieve beans using `ApplicationContext`.
-
----
-
-### 2. Creating and Configuring a Maven Project
-- Create a Maven project.
-- Configure `pom.xml`.
-- Add Spring dependencies.
-- Build the project using Maven.
-
----
-
-### 3. Implementing Dependency Injection
-- Learn Inversion of Control (IoC).
-- Implement Setter Injection.
-- Implement Constructor Injection.
-- Manage bean dependencies using Spring.
-
----
-
-## Additional Important Hands-on
-
-### 1. Configuring Beans with Annotations
-- Use annotations such as:
-  - `@Component`
-  - `@Service`
-  - `@Repository`
-  - `@Controller`
-- Enable component scanning.
-
----
-
-### 2. Configuring the Spring IoC Container
-- Configure beans using XML.
-- Configure beans using annotations.
-- Understand bean scopes.
-- Understand bean lifecycle.
-
----
-
-### 3. Creating a Spring Boot Application
-- Create a Spring Boot project.
-- Use Spring Boot Starter dependencies.
-- Run the application.
-- Understand auto-configuration.
-
----
-
-### 4. Implementing Basic AOP with Spring
-- Create an Aspect.
-- Implement Before Advice.
-- Implement After Advice.
-- Configure AspectJ.
-
----
-
-### 5. Implementing Constructor and Setter Injection
-- Constructor-based Dependency Injection.
-- Setter-based Dependency Injection.
-- Compare both approaches.
-
----
-
-### 6. Implementing Logging with Spring AOP
-- Create logging aspects.
-- Log method execution.
-- Understand cross-cutting concerns.
-- Use AOP for centralized logging.
-
----
-
-## 🛠 Technologies Used
-
-- Java
-- Spring Core
-- Spring Boot
-- Spring AOP
-- Maven
-- AspectJ
-- Eclipse / IntelliJ IDEA
-- JDK 17 or above
-
----
-
-## 📦 Prerequisites
-
-- Java JDK 17+
+- Java JDK 17 or above
 - Apache Maven 3.8+
-- Eclipse IDE / IntelliJ IDEA
 - Git
+- Eclipse IDE / IntelliJ IDEA / VS Code
 
 ---
 
 ## ▶️ How to Run
 
-### Clone Repository
+### Clone the Repository
 
 ```bash
 git clone <repository-url>
 ```
 
-### Navigate to the project
+### Navigate to the Project
 
 ```bash
 cd Spring-Core-and-Maven
 ```
 
-### Build the project
+### Build the Project
 
 ```bash
 mvn clean install
 ```
 
-### Run
+### Run the Application
 
-Run the main class of the respective hands-on exercise.
+Run the main class of the respective hands-on exercise from your IDE or using Maven.
 
 ---
 
-## 🎯 Learning Outcomes
+## 🎓 Learning Outcomes
 
 After completing these exercises, you will be able to:
 
-- Understand Spring Framework fundamentals.
+- Understand the fundamentals of the Spring Framework.
 - Configure Spring beans using XML and annotations.
-- Implement Dependency Injection.
-- Create Maven projects.
-- Build Spring Boot applications.
+- Implement Dependency Injection using IoC.
+- Build and manage Java projects using Maven.
+- Develop Spring Boot applications.
 - Apply Aspect-Oriented Programming (AOP).
-- Implement logging using Spring AOP.
-- Understand IoC Container and Bean Lifecycle.
+- Implement centralized logging with Spring AOP.
+- Understand bean scopes, lifecycle, and Spring container management.
 
 ---
 
 ## 👨‍💻 Author
 
-**Jaya Sri Patnala**
+**Jaya Sri**
 
 B.Tech – Artificial Intelligence & Data Science
 
@@ -179,4 +263,18 @@ Vishnu Institute of Technology
 
 ## ⭐ Repository Purpose
 
-This repository was created as part of Spring Core and Maven hands-on exercises to strengthen understanding of the Spring Framework and Maven build tool.
+This repository serves as:
+
+- Spring Framework Practice
+- Spring Boot Learning Resource
+- Maven Build Tool Reference
+- Academic Laboratory Record
+- Placement & Interview Preparation
+- Enterprise Java Development Practice
+- GitHub Portfolio Showcase
+
+---
+
+## 📄 License
+
+This repository is created for educational and academic purposes.
