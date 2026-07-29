@@ -1,0 +1,1 @@
+export default function Contact(){return(<><h2>Contact</h2><p>Email: student@example.com</p></>);}
