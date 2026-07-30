@@ -1,4 +1,4 @@
-# 📊 Data Structures and Algorithms Lab
+# 📊 Data Structures and Algorithms
 
 ![Java](https://img.shields.io/badge/Java-17-orange?style=for-the-badge&logo=java)
 ![DSA](https://img.shields.io/badge/Data_Structures-Algorithms-blue?style=for-the-badge)
